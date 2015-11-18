@@ -4,7 +4,11 @@ dep "prefs.workstation" do
   requires "prefs.disable-spaces-switch-on-activate"
   requires "prefs.disable-arrange-spaces-automatically"
   requires "prefs.enable-tap-to-click"
-  requires "prefs.safari-empty-new-tabs-and-windows"
+  requires "prefs.safari.show-status-bar"
+  requires "prefs.safari.empty-new-tabs-and-windows"
+  requires "prefs.safari.develop-menu"
+  requires "prefs.safari.developer-extras"
+
 end
 
 dep "prefs.small-screen" do
@@ -49,8 +53,23 @@ dep "prefs.enable-tap-to-click", :template => "plist" do
   types "Clicking" => "int"
 end
 
-dep "prefs.safari-empty-new-tabs-and-windows", :template => "plist" do
+dep "prefs.safari.empty-new-tabs-and-windows", :template => "plist" do
   domain "com.apple.safari"
-  values "NewTabBehavior" => 1, "NewWindowBehavior" => 1
-  types "NewTabBehavior" => "int", "NewWindowBehavior" => "int"
+  values "NewTabBehavior" => '1', "NewWindowBehavior" => '1'
+end
+
+dep "prefs.safari.develop-menu", :template => "plist" do
+  domain "com.apple.safari"
+  values "IncludeInternalDebugMenu" => '1', "IncludeDevelopMenu" => '1', "WebKitDeveloperExtrasEnabledPreferenceKey" => '1'
+end
+
+dep "prefs.safari.developer-extras", :template => "plist" do
+  domain "NSGlobalDomain"
+  values "WebKitDeveloperExtras" => '1'
+end
+
+dep "prefs.safari.show-status-bar", :template => "plist" do
+  domain "com.apple.safari"
+  values "ShowOverlayStatusBar" => 1
+  types "ShowOverlayStatusBar" => "int"
 end
