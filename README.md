@@ -56,3 +56,6 @@ babushka "imac"
 - [ ] Disable the guest user
 - [ ] Open 1Password and sign in
 - [ ] Configure charles proxy
+- [ ] Open Pastebot, give it a chance to open on launch etc
+- [ ] Open Kaleidoscope, install its integration: ksdiff
+- [ ] Open Pixel Winch and set it up to open on login
