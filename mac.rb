@@ -5,7 +5,7 @@ end
 
 dep "personal" do
   requires "personal dotfiles"
-  #requires "macos configured"
+  requires "prefs.mac"
   requires "packages"
   requires "vscode extensions"
 end
