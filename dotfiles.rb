@@ -9,6 +9,6 @@ dep "personal dotfiles" do
   }
 
   after {
-    shell "rcup"
+    shell "rcup -f"
   }
 end
