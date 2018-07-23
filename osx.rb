@@ -47,7 +47,7 @@ dep "prefs.disable-arrange-spaces-automatically", :template => "plist" do
 end
 
 dep "prefs.enable-tap-to-click", :template => "plist" do
-  domain "com.apple.driver.AppleBluetoothMultitouch.trackpad"
+  domain "com.apple.AppleMultitouchTrackpad"
   values "Clicking" => 1
   types "Clicking" => "int"
 end
