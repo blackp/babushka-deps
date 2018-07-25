@@ -23,6 +23,7 @@ dep "homebrew cask core apps" do
   requires "1password"
   requires "charles"
   requires "gitup"
+  requires "gpg-suite"
   requires "visual-studio-code"
 end
 
@@ -135,7 +136,7 @@ cask "rowanj-gitx"
 cask "glueprint"
 cask "google-chrome"
 cask "google-drive-file-stream"
-cask "gpgtools"
+cask "gpg-suite"
 cask "hammerspoon"
 cask "handbrake"
 cask "hazel"
