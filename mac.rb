@@ -16,6 +16,11 @@ dep "macbook" do
   requires "core apps"
 end
 
+dep "macbook pro" do
+  requires "mac"
+  requires "bloated apps"
+end
+
 dep "imac" do
   requires "mac"
   requires "bloated apps"
