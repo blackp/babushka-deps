@@ -38,6 +38,8 @@ end
 dep "homebrew cask bloated apps" do
   # Apps that are nice to have on systems that are not heavily constrained cpu/ram/battery
   requires "google-chrome"
+  requires "microsoft-teams"
+  requires "microsoft-edge"
   # requires "google-drive-file-stream"
   # requires "reveal"
   # requires "virtualbox"
@@ -152,6 +154,8 @@ cask "slack"
 cask "skype"
 cask "superduper"
 cask "taskpaper"
+cask "microsoft-teams"
+cask "microsoft-edge"
 cask "tokens"
 cask "transmission"
 cask "transmit"

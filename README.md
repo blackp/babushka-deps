@@ -55,7 +55,13 @@ babushka "imac"
 - [ ] [Copy Keychain](https://support.apple.com/kb/PH20120?locale=en_US)
 - [ ] Disable the guest user
 - [ ] Open 1Password and sign in
+- [ ] `brew install git-lfs`
+- [ ] `git lfs install`
+- [ ] Import GPG private key
 - [ ] Configure charles proxy
 - [ ] Open Pastebot, give it a chance to open on launch etc
 - [ ] Open Kaleidoscope, install its integration: ksdiff
 - [ ] Open Pixel Winch and set it up to open on login
+- [ ] Clone and build an example iOS repo
+- [ ] Install Android Studio
+- [ ] Clone and install an Android repo
